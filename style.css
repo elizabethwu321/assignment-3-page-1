@@ -15,7 +15,6 @@ h1 {
 h2 {
 	font-family: "cooperhewitt";
 	font-size: 20px;
-	justify-content: center;
 	color: black;
 	margin: auto;
 	text-align: center;
@@ -26,12 +25,16 @@ p {
 	font-family: "cooperhewitt";
 	font-size: 14px;
 	color: lightpink;
-	margin: auto;
 	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 100px;
 }
 
 a {
 	color: black;
+	text-align: center;
+	position: fixed;
+	margin-bottom: 100px;
 }
 
 .red {
@@ -49,42 +52,35 @@ a {
 .yellow {
 	width: 800px;
 	height: 1000px;
-	margin-top: 100px;
 }
 
 .green {
-	width: 100px;
-	height: 50px;
-	position: fixed;
+	width: 50px;
+	height: 30px;
+	margin: auto;
 }
 
 .red {
-	background-color: white;
+	background-color: transparent;
 	align-content: center;
 	margin-top: 30px;
 }
 
 .pink {
-	background-color: darkred;
+	background-color: transparent;
 	align-content: center;
 }
 
 .yellow {
-	background-color: white;
+	background-color: transparent;
 	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 .green {
-	background-color: white;
-	margin-bottom: 30px;
+	background-color: transparent;
 }
 
 .space-around {
 	justify-content: space-around;
-}
-
-.flex-vertical {
-	display: flex;
-	height: 2000px;
-	flex-direction: row;
 }
