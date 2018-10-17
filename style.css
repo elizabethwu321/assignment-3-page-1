@@ -48,19 +48,20 @@ a {
 
 .yellow {
 	width: 800px;
-	height: 1400px;
-	margin: auto;
+	height: 1000px;
+	margin-top: 100px;
 }
 
 .green {
-	width: 50px;
-	height: 30px;
-	margin: auto;
+	width: 100px;
+	height: 50px;
+	position: fixed;
 }
 
 .red {
-	background-color: darkorange;
+	background-color: white;
 	align-content: center;
+	margin-top: 30px;
 }
 
 .pink {
@@ -70,12 +71,12 @@ a {
 
 .yellow {
 	background-color: white;
-	margin-top: 50px;
-	margin: auto;
+	margin-top: 10px;
 }
 
 .green {
 	background-color: white;
+	margin-bottom: 30px;
 }
 
 .space-around {
