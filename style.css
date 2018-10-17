@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "cooperhewitt";
+	src: url("fonts/CooperHewitt-Heavy.woff2") format("woff2");
+}
+
+h1 {
+	font-family: "cooperhewitt";
+	font-size: 45px;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: "cooperhewitt";
+	font-size: 20px;
+	justify-content: center;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+p {
+	font-family: "cooperhewitt";
+	font-size: 14px;
+	color: lightpink;
+	margin: auto;
+	text-align: center;
+}
+
+.red {
+	width: 800px;
+	height: 200px;
+	margin: auto;
+}
+
+.yellow {
+	width: 800px;
+	height: 750px;
+	margin: auto;
+}
+
+.green {
+	width: 50px;
+	height: 30px;
+	margin: auto;
+}
+
+.red {
+	background-color: darkorange;
+	margin: auto;
+	align-content: center;
+}
+
+.yellow {
+	background-color: darkblue;
+}
+
+.green {
+	background-color: darkorange;
+}
+
+.space-around {
+	justify-content: space-around;
+}
