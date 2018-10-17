@@ -28,6 +28,10 @@ p {
 	text-align: center;
 }
 
+a {
+	color: darkred;
+}
+
 .red {
 	width: 800px;
 	height: 170px;
