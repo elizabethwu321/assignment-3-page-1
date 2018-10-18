@@ -25,9 +25,9 @@ p {
 	font-family: "cooperhewitt";
 	font-size: 14px;
 	color: lightpink;
-	text-align: center;
 	margin-left: 100px;
-	margin-bottom: 100px;
+		margin-right: 100px;
+		position: center;
 }
 
 a {
@@ -51,13 +51,15 @@ a {
 
 .yellow {
 	width: 800px;
-	height: 1000px;
+	height: 550px;
+	position: center;
 }
 
 .green {
 	width: 50px;
 	height: 30px;
 	margin: auto;
+		position: fixed left;
 }
 
 .red {
@@ -75,10 +77,12 @@ a {
 	background-color: transparent;
 	margin-top: 10px;
 	margin-bottom: 50px;
+		position: center;
 }
 
 .green {
 	background-color: transparent;
+	position: fixed left;
 }
 
 .space-around {
